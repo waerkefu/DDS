@@ -1,0 +1,48 @@
+# ===== Maven / Java =====
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 环境与配置（敏感配置按需提交） =====
+*.env
+*.env.local
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-prod.yml
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 前端构建产物（子目录 .gitignore 已覆盖，此处兜底） =====
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Trae 规格文档（如需保留可注释掉本行） =====
+.trae/
