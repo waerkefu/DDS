@@ -6,6 +6,7 @@ import java.io.Serializable;
 
 /**
  * 分页查询基础参数
+ * 用于所有分页查询的参数，确保分页参数的合法性。
  */
 @Data
 public class PageQuery implements Serializable {

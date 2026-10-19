@@ -42,7 +42,7 @@
 
 | 层次 | 选型 |
 |------|------|
-| 后端 | Java 17、Spring Boot 3.2.5、MyBatis-Plus 3.5.5、Lombok、SpringDoc OpenAPI 2.3.0 |
+| 后端 | Java 21、Spring Boot 3.2.5、MyBatis-Plus 3.5.5、Lombok、SpringDoc OpenAPI 2.3.0 |
 | 认证 | JJWT 0.12.5（HS256）+ 自研鉴权拦截器 + PBKDF2 密码加密 |
 | 存储 | MySQL 8.x（业务数据）、Redis（缓存 / 幂等加速，**可选**） |
 | 前端 | Vue 3.4、Vite 5、Pinia 2、Vue Router 4、Element Plus 2.7、Axios |
@@ -55,7 +55,7 @@
 
 ## 三、环境要求
 
-- JDK 17+
+- JDK 21+
 - Maven 3.8+
 - MySQL 8.x
 - Node.js 18+ 与 npm
